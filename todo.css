@@ -1,0 +1,27 @@
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 205, 208);
+    width: 300px;
+    max-height: 800px;
+    margin-left: 40%;
+    margin-top: 200px;
+    border-radius: 3px;
+    box-shadow: 10px;
+    border: solid black 3px;
+    color: black;
+    overflow: auto;
+    align-items: center;
+}
+
+#todo-btn {
+    background-color: rgb(74, 69, 62);
+    color: white;
+}
+
+#tasklists .fa-trash {
+    margin-left: 100px;
+    cursor: pointer;
+    margin-right: 10px;
+}
